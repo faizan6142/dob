@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Birth & Death Registration Certificate</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="top-stripe" aria-hidden="true">
+    <svg viewBox="0 0 1366 50" width="100%" height="50">
+      <defs>
+        <linearGradient id="tri" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#f39538"/>
+          <stop offset="40%" stop-color="#fff"/>
+          <stop offset="100%" stop-color="#17732a"/>
+        </linearGradient>
+      </defs>
+      <rect x="0" y="0" width="1366" height="50" fill="url(#tri)"/>
+    </svg>
+  </header>
+
+  <nav class="navbar" aria-label="Main navigation">
+    <div class="nav-left">
+      <img src="assets/logo.svg" alt="Birth & Death Registration logo" class="nav-logo" width="48" height="48">
+      <span class="nav-title">Birth & Death Registration</span>
+    </div>
+    <button id="navMenuBtn" aria-controls="navLinks" aria-expanded="false" aria-label="Toggle menu" class="nav-menu-btn">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#">About CRS</a></li>
+      <li><a href="#">RBD Act and Model Rules</a></li>
+      <li><a href="#">Circulars</a></li>
+      <li><a href="#">Forms</a></li>
+      <li><a href="#">Training Manuals</a></li>
+      <li><a href="#">FAQs</a></li>
+      <li><a href="#">How To Apply</a></li>
+    </ul>
+    <div class="nav-controls">
+      <div class="font-size-controls" aria-label="Font size controls">
+        <button id="decreaseFont" aria-label="Decrease font size" tabindex="0">A-</button>
+        <button id="resetFont" aria-label="Reset font size" tabindex="0">A</button>
+        <button id="increaseFont" aria-label="Increase font size" tabindex="0">A+</button>
+      </div>
+      <button class="login-btn" tabindex="0">Login</button>
+    </div>
+  </nav>
+
+  <div class="background-watermark" aria-hidden="true"></div>
+  <main>
+    <section class="card" aria-label="Birth & Death Registration Details">
+      <table class="data-table" aria-describedby="cardHeading">
+        <tbody>
+          <tr><th>Registration Number</th><td>34150</td></tr>
+          <tr><th>NAME</th><td>FAIZAN</td></tr>
+          <tr><th>GENDER</th><td>Male</td></tr>
+          <tr><th>DOB</th><td>20-05-2004</td></tr>
+          <tr><th>Name Of Mother</th><td>SALEEMA BANO</td></tr>
+          <tr><th>Name Of Father</th><td>MOHD AMEEN SHAH</td></tr>
+          <tr><th>Place of Birth</th><td>LD HOSPITAL, SRINAGAR, SRINAGAR (SOUTH), SRINAGAR, JAMMU AND KASHMIR / LD HOSPITAL, SRINAGAR, SRINAGAR (SOUTH), SRINAGAR, JAMMU AND KASHMIR</td></tr>
+          <tr><th>Registration Date</th><td>20-05-2006</td></tr>
+          <tr><th>Registration Unit Name</th><td>SRINAGAR MUNICIPAL CORPORATION</td></tr>
+          <tr><th>Registration Unit Code</th><td>90187</td></tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-logos">
+      <img src="assets/data-gov.svg" alt="data.gov.in logo" height="32" loading="lazy">
+      <img src="assets/india-gov.svg" alt="india.gov.in logo" height="32" loading="lazy">
+      <img src="assets/pm-india.svg" alt="PM India logo" height="32" loading="lazy">
+      <img src="assets/make-in-india.svg" alt="Make In India logo" height="32" loading="lazy">
+      <img src="assets/digital-india.svg" alt="Digital India logo" height="32" loading="lazy">
+      <img src="assets/mygov.svg" alt="MyGov logo" height="32" loading="lazy">
+      <img src="assets/coop-year.svg" alt="International Year of Cooperatives logo" height="32" loading="lazy">
+    </div>
+    <div class="footer-links">
+      <a href="#">Website Policy</a> |
+      <a href="#">Mobile App Privacy Policy</a> |
+      <a href="#">Terms & Conditions</a> |
+      <a href="#">Accessibility Statement</a> |
+      <a href="#">Web Information Manager</a>
+    </div>
+    <div class="footer-info">
+      <span>© 2025 · The Registrar General & Census Commissioner, India</span> · <span>Sep 9, 2025, 5:01:16 PM</span>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
